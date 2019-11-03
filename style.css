@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: #00CCCC
     
 }
@@ -15,11 +15,21 @@ h1 {
     background: #ffffff
 }
 
-.jumbotron {
-    max-width: 720px;
+.one .jumbotron {
+    max-width: 500px;
     margin-top: 30px;
     margin-right: 30px;
     margin-left: 30px;
+    margin-bottom: 150px;
+}
+
+.two .jumbotron{
+    max-width: 300px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 150px;
+    background-color: powderblue;
 }
 
 .navbar li {
@@ -38,12 +48,22 @@ h1 {
     text-decoration: none;
   }
 
-  .float-left {
-    margin-left: 6.5cm"
+  .floated {
+    float: right;
+    width: 300px;
+  }
+ 
+  .floated-none{
+    float: right;
   }
   .img-thumbnail {
-      height: 250px;
-      width: 30%;
+      height: 200px;
+      width: 40%;
+  }
+
+  .img {
+      height: 150px;
+      width: 40%;
   }
 
   .container {
